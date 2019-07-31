@@ -1,9 +1,9 @@
 # add_hx_vlan
 Python script to add a new VLAN to Cisco HyperFlex system with VMware vCenter
 
-*** version 0.8.2, still in development, for lab or test environments only! ***
+*** version 0.9.2, still in development, for lab or test environments only! ***
 
-*** This has been tested on UCSM v4.0, HyperFlex v3.5 and vCenter/vSphere v6.7 using vswitches ***
+*** This has been tested on UCSM v4.0, HyperFlex v3.5 and vCenter/vSphere v6.7 ***
 
 *** prompts for new VLAN name and ID ***
 
@@ -16,7 +16,7 @@ docker build --no-cache -t add_hx_vlan-img https://github.com/trblemakar/add_hx_
 How to run the program for the first time
 
 docker run -it --name add_hx_vlan add_hx_vlan-img
-(will prompt for VLAN name/ID, HX Connect IP/password, UCSM password and vCenter username/password)
+(will prompt for HX Connect IP/password, new VLAN name/ID, UCSM password and vCenter username/password)
 
 How to re-run the program (container) once created
 
