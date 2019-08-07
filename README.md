@@ -1,11 +1,11 @@
 # add_hx_vlan
 Python script to add a new VLAN to Cisco HyperFlex system with VMware vCenter
 
-*** version 0.9.2, still in development, for lab or test environments only! ***
+*** version 0.9.6, still in development, for lab or test environments only! ***
 
 *** This has been tested on UCSM v4.0, HyperFlex v3.5 and vCenter/vSphere v6.7 ***
 
-*** prompts for new VLAN name and ID ***
+*** prompts for new VLAN name and ID (can include multiple IDs, i.e. 2, 73, 76-77, 1000-1010...) ***
 
 This build leverages Alpine Linux, Python 2.7 and UCS Python SDK v0.9 and pyvmomi in a Docker container.
 
