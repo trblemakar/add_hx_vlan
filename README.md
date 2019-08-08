@@ -21,3 +21,8 @@ docker run -it --name add_hx_vlan add_hx_vlan-img
 How to re-run the program (container) once created
 
 docker start -ia add_hx_vlan
+
+To access the container
+
+docker exec -it add_hx_vlan /bin/sh
+
