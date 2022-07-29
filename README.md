@@ -7,7 +7,7 @@ Python script to add a new VLAN to Cisco HyperFlex system with VMware vCenter
 
 *** prompts for new VLAN name and ID (can include multiple IDs, i.e. 2, 73, 76-77, 1000-1010...) ***
 
-This build leverages Alpine Linux, Python 2.7 and UCS Python SDK v0.9 and pyvmomi in a Docker container.
+This build leverages Alpine Linux, Python 3 and UCS Python SDK v0.9+ and pyvmomi in a Docker container.
 
 How to build the image
 
