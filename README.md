@@ -1,7 +1,7 @@
 # add_hx_vlan
 Python script to add a new VLAN to Cisco HyperFlex system with VMware vCenter
 
-*** version 1.0.11, still in development, for lab or test environments only! ***
+*** version 1.0.12, still in development, for lab or test environments only! ***
 
 *** This has been tested on UCSM v4.0, HyperFlex v3.5 and vCenter/vSphere v6.7 ***
 
@@ -25,4 +25,3 @@ docker start -ia add_hx_vlan
 To access the container, once started
 
 docker exec -it add_hx_vlan /bin/sh
-
